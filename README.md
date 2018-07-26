@@ -6,14 +6,14 @@ The project consists of 3 experiments:
 
 Here is the link to the web interface: http://users.cs.cf.ac.uk/NakumG/image_select.php
 
-The directory "web interface 1" contains the code for this interface.
+The directory "Web Interface 1" contains the code for this interface.
 
 
 2. Comparing Reverse Correlation with Standard Methods: We compare a randomly chosen subset of the images obtained from experiment 1 with those obtained from existing standard methods for image downsizing - DPID, Pixelated Abstraction and Lanczos. We found that for 70% of the comapred images, our method achieves better performance than the other methods.
 
 Here is the link to this experiment: http://users.cs.cf.ac.uk/NakumG/reverse_correlation/eval_rc_new.php
 
-The directory "web interface 2" contains the code for the interface designed to test the new method.
+The directory "Web Interface 2" contains the code for the interface designed to test the new method.
 
 3. Learning an Algorithm to Generate Reverse Correlation Images: We train a cGAN to learn the mapping from full-sized images to downsized images obtained by reverse correlation.
 

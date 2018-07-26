@@ -58,3 +58,16 @@ https://link.springer.com/chapter/10.1007/978-3-319-10593-2_13
 
 9. Y. Li et al., "Convolutional Neural Network-Based Block Up-sampling for Intra Frame Coding," in IEEE Transactions on Circuits and Systems for Video Technology, doi: 10.1109/TCSVT.2017.2727682
 https://ieeexplore.ieee.org/document/7982641/
+
+
+C. Image Downscaling:
+1. Nicolas Weber, Michael Waechter, Sandra C. Amend, Stefan Guthe, and Michael Goesele (2016) Rapid, Detail-Preserving Image Downscaling, http://dx.doi.org/10.1145/2980179.2980239
+
+2. Timothy Gerstner, Doug DeCarlo, Marc Alexa, Adam Finkelstein, Yotam Gingold, Andrew Nealen (2012) Pixelated Image Abstraction, http://gfx.cs.princeton.edu/pubs/Gerstner_2012_PIA/index.php
+
+3. A. Cengiz Oztireli, Markus Gross (2015) Perceptually Based Downscaling of Images, https://graphics.ethz.ch/~cengizo/imageDownscaling.htm
+
+4. Matthew Trentacoste, Rafał Mantiuk & Wolfgang Heidrich (2011) Blur-Aware Image Downsampling, https://www.cs.ubc.ca/labs/imager/tr/2011/BlurAwareDownsize/
+
+5. Ramin Samadani, Timothy A. Mauer, David M. Berfanger, James H. Clark (2009) Image Thumbnails That Represent Blur and Noise, https://doi.org/10.1109/TIP.2009.2035847
+

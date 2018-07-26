@@ -4,20 +4,20 @@ We develop a new algorithm for image downsampling by employing a well-known meth
 The project consists of 3 experiments:
 1. Generating Image Dataset: First, we create a web interface for generating images using reverse correlation. For each full-sized image in our dataset, we generate a downsampled version of the image using a standard method (for example, Lanczos). We then add random noise to parts of the image and create pairs out of these random noise-added downsized images. We then ask the user to select the image which better resembles the original one. After receiving about 300 responses for each image, we take the average of the users' choices and these constitute our labels for the image dataset.
 
-        Here is the link to the web interface: http://users.cs.cf.ac.uk/NakumG/image_select.php
+Here is the link to the web interface: http://users.cs.cf.ac.uk/NakumG/image_select.php
 
-        The directory "web interface 1" contains the code for this interface.
+The directory "web interface 1" contains the code for this interface.
 
 
 2. Comparing Reverse Correlation with Standard Methods: We compare a randomly chosen subset of the images obtained from experiment 1 with those obtained from existing standard methods for image downsizing - DPID, Pixelated Abstraction and Lanczos. We found that for 70% of the comapred images, our method achieves better performance than the other methods.
 
-        Here is the link to this experiment: users.cs.cf.ac.uk/NakumG/reverse_correlation/eval_rc_new.php
+Here is the link to this experiment: http://users.cs.cf.ac.uk/NakumG/reverse_correlation/eval_rc_new.php
 
-        The directory "web interface 2" contains the code for the interface designed to test the new method.
+The directory "web interface 2" contains the code for the interface designed to test the new method.
 
 3. Learning an Algorithm to Generate Reverse Correlation Images: We train a cGAN to learn the mapping from full-sized images to downsized images obtained by reverse correlation.
 
-        The directory "pix2pix" contains the code for learning this mapping.
+The directory "pix2pix" contains the code for learning this mapping.
 
 
 References:

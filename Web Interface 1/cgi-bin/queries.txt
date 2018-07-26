@@ -1,0 +1,2 @@
+SELECT  image_id , AVG(normal_resp_time) FROM Evaluation WHERE normal_resp_time >=0 GROUP BY (image_id);
+SELECT  image_id , AVG(rc_resp_time) FROM Evaluation WHERE rc_resp_time >=0 GROUP BY (image_id);

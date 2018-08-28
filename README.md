@@ -1,5 +1,5 @@
 # Image-Downsampling
-We develop a new algorithm for image downsampling by employing a well-known method in psychology known as reverse correlation.
+We develop a new algorithm for image downsampling by employing a well-known psychology method known as reverse correlation.
 
 The project consists of 3 experiments:
 1. Generating Image Dataset: First, we create a web interface for generating images using reverse correlation. For each full-sized image in our dataset, we generate a downsampled version of the image using a standard method (for example, Lanczos). We then add random noise to parts of the image and create pairs out of these random noise-added downsized images. We then ask the user to select the image which better resembles the original one. After receiving about 300 responses for each image, we take the average of the users' choices and these constitute our labels for the image dataset. 

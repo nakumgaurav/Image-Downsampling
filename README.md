@@ -71,3 +71,4 @@ C. Image Downscaling:
 
 5. Ramin Samadani, Timothy A. Mauer, David M. Berfanger, James H. Clark (2009) Image Thumbnails That Represent Blur and Noise, https://doi.org/10.1109/TIP.2009.2035847
 
+6. Johannes Kopf, Ariel Shamir, Pieter Peers (2013), Content-Adaptive Image Downscaling, https://dl.acm.org/citation.cfm?doid=2508363.2508370

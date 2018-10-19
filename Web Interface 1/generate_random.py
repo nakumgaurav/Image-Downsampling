@@ -5,10 +5,12 @@ with open('sigma.pickle', 'rb') as handle:
     sigma_dict = pickle.load(handle)
 
 sigma_low = sigma_dict[min(sigma_dict, key=sigma_dict.get)]
+sigma_highest = sigma_dict[max(sigma_dict, key=sigma_dict.get)]
+gamma = 9
 
 # determined by a separate experiment
-thresh = 53.5
-sigma_highest = 9.0
+thresh = 80.0 # intially, 53.5
+sigma_highest /= 9
 # emprically chosen
 scale_factor = 0.6
 
